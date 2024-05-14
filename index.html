@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio website HTML CSS</title>  
+    <link rel="stylesheet" href="style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<style>
+    body {
+    background:linear-gradient(45deg,black,rgb(0, 0, 145),rgb(5, 0, 80));
+    color: white;
+    
+}
+</style>
+</head>
+<body>
+    <section class="seaction 1">
+    <header class="header">
+        <a href="#" class="main">Landing page</a>
+    <nav class="navbar">
+        <a href="start page.html"  class="nav-link" style="--i:1;">HOME</a>
+        <a href="about.html" class="nav-link" style="--i:2;">ABOUT</a>
+        <a href="about1.html" class="nav-link" style="--i:3;">SERVICES</a>
+        <a href="portfolio.html" class="nav-link" style="--i:4;">PORTFOLIO</a>
+        <a href="contact.html" class="nav-link" style="--i:5;">CONTACT</a>
+    </nav>
+
+    </header>
+    <div class="home1">
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.linkedin.com/in/saad9753/"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <div class="home-content1">
+            <h1>Hi,Myself Saad</h1>
+            <div class="morphing">         
+                <div class="text">Web Developer</div>
+                <div class="text">Student</div>
+                <div class="text">Researcher</div>
+                <div class="text">Graphic designing</div>
+                
+                </div>
+            <p>This is portfolio sample website  </p>
+            <a href="#" class="btn">Press</a>
+        
+        </div>
+        <button class="open-button" onclick="openForm()">Chat</button>
+
+        <div class="chat-popup" id="myForm">
+          <form class="form-container">
+            <h1>Chat</h1>
+        
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+        
+            <button type="submit" class="btn12">Send</button>
+            <button type="button" class="btn13 cancel" onclick="closeForm()">Close</button>
+          </form>
+    </div>
+    <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+        </script>
+        <div class="home-img1">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+             <div class="image1">
+                <img src="pexels-pixabay-163100.jpg" alt="">
+             </div>
+            </div>
+        </div>
+    </div>
+
+    </section>    
+</body>
+</html>

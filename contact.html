@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Details</title>  
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<style>
+body{
+    background: linear-gradient(35deg,rgb(51, 2, 22),rgb(3, 44, 30),rgb(12, 2, 49));
+    
+}
+#div1 {
+  font-size:48px;
+  margin-left: 100px;
+}
+.containerv{
+  width: ;
+  margin-top: -10px;
+
+  margin-top: 20p;
+}
+.mycontainer {
+  padding: 13px;
+  padding-bottom: 10px;
+  width:100%;
+  overflow:auto;
+  height: 100%;
+  position: fixed;
+  top: 149px;
+  float: left;
+  top: 78px;
+}
+.a{
+  padding: 39px;
+  width: 31%;
+  top: 30px;
+  background-color: aqua;
+  height: 85%;
+  float: right;
+  margin: 7px;
+  margin-right: 25px;
+  color: #330000;
+  font-weight: 600;
+  font-family: 'Lucida Sans';
+}
+.a h3{
+  padding-bottom:10px;
+  margin-bottom: 20px;
+}
+.b{
+  height: 85%;
+  width: 31%;
+  background-color: blue;
+  float: right;
+  margin: 7px;}
+.b h3{
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-family: 'Lucida Sans';
+  color: aliceblue;
+}
+.c{
+  margin: 7px;
+  height: 85%;
+  width: 31%;
+  float: right;
+  background-color: brown;
+
+}
+.c p{
+  margin-left: 59px;
+}
+
+
+.input1-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input1-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input1-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn3 {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn3:hover {
+  opacity: 1;
+}
+
+/* Full-width textarea */
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+/* Float four columns side by side */
+.column2 {
+  margin-left: 29px;
+  width: 86%;
+  padding: 3px;;
+ 
+}
+
+.row2 {margin: 0 -5px;
+  background-color: ;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 100%;
+    display: block;
+    margin-bottom: px;
+  }
+}
+.column2 p{
+  margin-left:-6px;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #330000;
+  color: white;
+}
+
+
+</style> 
+</head>
+<body>
+  
+    <header class="header">
+        <a href="#" class="main">Contact us</a>
+    <nav class="navbar">
+        <a href="start page.html" style="--i:1;">HOME</a>
+        <a href="about.html" style="--i:2;">ABOUT</a>
+        <a href="about1.html" style="--i:3;">SERVICES</a>
+        <a href="portfolio.html" style="--i:4;">PORTFOLIO</a>
+        <a href="contact.html" style="--i:5;">CONTACT</a>
+    </nav>
+
+
+    </header>
+    <div class="mycontainer">
+
+      <div class="a">
+        <h3>Contact Form</h3>
+
+        <div class="containerv">
+          <form >
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:80px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        
+      </div>
+      
+      <div class="b">
+        <form  style="max-width:px;margin: 20px;margin-top: 10%;">
+          <h3>Register Form</h3>
+          <div class="input1-container">
+            <i class="fa fa-user icon"></i>
+            <input class="input1-field" type="password" placeholder="name" name="psw">
+          </div>
+        
+          <div class="input1-container">
+            <i class="fa fa-envelope icon"></i>
+            <input class="input1-field" type="password" placeholder="email" name="psw">
+          </div>
+          
+          <div class="input1-container">
+            <i class="fa fa-key icon"></i>
+            <input class="input1-field" type="password" placeholder="Password" name="psw">
+          </div>
+        
+          <button type="submit" class="btn3">Register</button>
+        </form>
+        
+      </div>
+      
+      <div class="c">
+        <div id="div1" class="fa"></div>
+
+        <script>
+        function chargebattery() {
+          var a;
+          a = document.getElementById("div1");
+          a.innerHTML = "&#xf244;";
+          setTimeout(function () {
+              a.innerHTML = "&#xf243;";
+            }, 1000);
+          setTimeout(function () {
+              a.innerHTML = "&#xf242;";
+            }, 2000);
+          setTimeout(function () {
+              a.innerHTML = "&#xf241;";
+            }, 3000);
+          setTimeout(function () {
+              a.innerHTML = "&#xf240;";
+            }, 4000);
+        }
+        chargebattery();
+        setInterval(chargebattery, 5000);
+        </script>
+ 
+ <p>    Select your own choice</p>
+ <div class="row2">
+  <div class="column2">
+    <div class="card">
+      <p><i class="fa fa-user"></i></p>
+      <h3>11+</h3>
+      <p>Partners</p>
+    </div>
+  </div>
+
+  <div class="column2">
+    <div class="card">
+      <p><i class="fa fa-check"></i></p>
+      <h3>55+</h3>
+      <p>Projects</p>
+    </div>
+  </div>
+  
+
+  <div class="column2">
+    <div class="card">
+      <p><i class="fa fa-coffee"></i></p>
+      <h3>100+</h3>
+      <p>Meetings</p>
+    </div>
+  </div>
+</div>
+</div>
+    
+    </div>
+
+   
+
+        
+    
+    
+   
+        <!-- The SVG filter used to create the merging effect -->
+   
+
+         
+
+   
+</body>
+</html>
